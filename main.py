@@ -4,7 +4,9 @@ from time import strftime
 from bonus import functions
 
 now = strftime("%b %d, %Y %H:%M:%S")
+print("The time is below")
 print("It is now",now)
+
 while True:
     user_action = input("Type add or show or exit or Edit or complete")
 
