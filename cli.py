@@ -1,7 +1,7 @@
 # from functions_of_main import get_todos , write_todos
 from time import strftime
 
-from bonus import functions
+import functions
 
 now = strftime("%b %d, %Y %H:%M:%S")
 print("The time is below")
